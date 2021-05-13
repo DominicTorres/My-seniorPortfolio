@@ -6,11 +6,37 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dominic's Senior Portfolio</title>
   <link href="skeleton.css" rel="stylesheet" />
+  <script src="skeleton.js"></script>
 </head>
 
 <header>
-  <h1>Dominic Torres</h1>
-  <ul class="nav justify-content-center">
+  <div id="text">
+
+  </div>
+
+  <script type="text/javascript">
+    var i=0, text;
+    text = "Dominic Torres"
+
+    function typing(){
+    if(i<text.length){
+        document.getElementById("text").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typing,75);
+    }
+}
+typing();
+  </script>
+
+  <div class="dropdown">
+    <button class="dropbtn">Right</button>
+    <div class="drop-right">
+      <a href="index.html">Home</a>
+      <a href="#">My Work</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <!-- <ul class="nav justify-content-center">
     <li class="nav1">
       <a class="nav-link active" aria-current="page" href="#">Home</a>
     </li>
@@ -23,7 +49,7 @@
     <li class="nav1">
       <a class="nav-link active" href="#">Contact</a>
     </li>
-  </ul>
+  </ul> -->
 </header>
 
 <body>
@@ -52,11 +78,11 @@
 <h1>My Skills</h1>
 
 <p>
-  HTML: Marvelous
+  HTML: Bars Here
   <br>
-  CSS: IT'S AIGHT
+  CSS: Bars Here
   <br>
-  JAVASCRIPT: somewhat know
+  JAVASCRIPT: Bars Here
 </p>
 
 <h1>Education</h1>
