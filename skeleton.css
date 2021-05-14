@@ -5,14 +5,17 @@ html{
 h1{
   color: white;
   font-family: 'Opens Sans Condensed', sans-serif;
+  text-align: center;
 }
 
 p{
   color: white;
+  text-align: center;
 }
 
 footer{
   color: white;
+  text-align: center;
 }
 
 header button{
@@ -33,6 +36,7 @@ header button{
   padding: 16px;
   font-size: 16px;
   border: none;
+  border-radius: 25px;
   cursor: pointer;
 }
 
@@ -70,4 +74,16 @@ header button{
   font-size: 64px;
   font-family: 'Opens Sans Condensed', sans-serif;
   text-transform: uppercase;
+}
+
+.numba1{
+  background-color: #FEFADC;
+}
+
+.he1{
+  color: black;
+}
+
+.text1{
+  color: black;
 }
